@@ -47,7 +47,7 @@ import type { GenerateVideoInput, CheckJobStatusInput } from "./types.js";
 
 const server = new McpServer({
   name: "gawain",
-  version: "0.2.1",
+  version: "0.2.2",
 });
 
 // --- Tool: generate_video ---

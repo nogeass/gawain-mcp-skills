@@ -19,6 +19,15 @@
 
 ---
 
+<!-- TODO: Replace with actual demo GIF once recorded -->
+<!-- <p align="center">
+  <img src="https://cdn.gawain.nogeass.com/public/demo/mcp-demo.gif" alt="Gawain MCP Demo" width="720">
+  <br>
+  <a href="https://youtube.com/watch?v=XXXXX">Watch full demo on YouTube</a>
+</p> -->
+
+---
+
 ## Overview
 
 Gawain MCP Skills is an MCP server that brings [Gawain AI](https://gawain.nogeass.com) video generation directly into Claude Code. Just provide a product name and image URL, and AI automatically generates a promotional video.
@@ -200,6 +209,10 @@ npm start
 ## Contributing
 
 Issues and pull requests are welcome at [GitHub](https://github.com/nogeass/gawain-mcp-skills).
+
+## About
+
+Developed and maintained by [**no geass inc.**](https://nogeass.com/en)
 
 ## License
 

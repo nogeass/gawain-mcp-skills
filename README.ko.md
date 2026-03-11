@@ -201,6 +201,10 @@ npm start
 
 [GitHub](https://github.com/nogeass/gawain-mcp-skills)에서 Issue와 Pull Request를 환영합니다.
 
+## 소개
+
+[**no geass inc.**](https://nogeass.com/ko)（ノーギアス株式会社）에서 개발 및 운영합니다.
+
 ## 라이선스
 
 [MIT](./LICENSE) — Copyright (c) 2026 no geass inc.
