@@ -68,6 +68,48 @@ Claude: 자동 감지된 언어: 한국어 (ko)
 Claude: language="en"으로 생성합니다. LLM이 스크립트를 영어로 번역합니다.
 ```
 
+## 예시 (복사하여 바로 사용)
+
+### 한국어 — K-Beauty
+
+```
+상품명: 유바리 멜론 콜라겐 마스크팩
+이미지: https://cdn.gawain.nogeass.com/public/samples/mask.png
+가격: 25000
+설명: 유바리 멜론 추출물과 콜라겐이 풍부한 프리미엄 마스크팩. 피부에 수분과 탄력을 선사합니다.
+언어: ko
+```
+
+### 영어 — 가전제품
+
+```
+상품명: ZenBreeze Pro Air Purifier
+이미지: https://cdn.gawain.nogeass.com/public/samples/purifier.png
+가격: 299
+설명: Ultra-quiet HEPA air purifier with smart sensor. Covers up to 500 sq ft. Perfect for allergies and pet owners.
+언어: en
+```
+
+### 일본어 — 식품
+
+```
+상품명: 夕張メロン 特秀品
+이미지: https://cdn.gawain.nogeass.com/public/samples/melon.png
+가격: 8980
+설명: 北海道夕張産の最高級メロン。糖度15度以上、とろける果肉。贈答用にも最適。
+언어: ja
+```
+
+### 중국어 — 크로스보더 (일본 상품 → 중국어 비디오)
+
+```
+상품명: 京都宇治抹茶 最高級品
+이미지: https://cdn.gawain.nogeass.com/public/samples/matcha.png
+가격: 3200
+설명: 京都府宇治産の石臼挽き抹茶。茶道にも使える最高級品。豊かな旨味と鮮やかな緑色。
+언어: zh
+```
+
 ## MCP 도구
 
 | 도구 | 설명 |
