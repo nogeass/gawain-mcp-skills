@@ -74,7 +74,7 @@ Claude:  language="en" で生成します。LLMが日本語から英語へ翻訳
 
 ```
 商品名: 夕張メロン 特秀品
-画像: https://cdn.gawain.nogeass.com/public/samples/melon.png
+画像: https://cdn.gawain.nogeass.com/melon/1_gawain_generated.png
 価格: 8980
 説明: 北海道夕張産の最高級メロン。糖度15度以上、とろける果肉。贈答用にも最適。
 言語: ja
@@ -84,7 +84,7 @@ Claude:  language="en" で生成します。LLMが日本語から英語へ翻訳
 
 ```
 商品名: ZenBreeze Pro Air Purifier
-画像: https://cdn.gawain.nogeass.com/public/samples/purifier.png
+画像: https://cdn.gawain.nogeass.com/shoes/1_gawain_generated.png
 価格: 299
 説明: Ultra-quiet HEPA air purifier with smart sensor. Covers up to 500 sq ft. Perfect for allergies and pet owners.
 言語: en
@@ -94,7 +94,7 @@ Claude:  language="en" で生成します。LLMが日本語から英語へ翻訳
 
 ```
 商品名: 京都宇治抹茶 最高級品
-画像: https://cdn.gawain.nogeass.com/public/samples/matcha.png
+画像: https://cdn.gawain.nogeass.com/wine/1_gawain_generated.png
 価格: 3200
 説明: 京都府宇治産の石臼挽き抹茶。茶道にも使える最高級品。豊かな旨味と鮮やかな緑色。
 言語: zh
@@ -104,7 +104,7 @@ Claude:  language="en" で生成します。LLMが日本語から英語へ翻訳
 
 ```
 商品名: 유바리 멜론 콜라겐 마스크팩
-画像: https://cdn.gawain.nogeass.com/public/samples/mask.png
+画像: https://cdn.gawain.nogeass.com/bag/1_gawain_generated.png
 価格: 25000
 説明: 유바리 멜론 추출물과 콜라겐이 풍부한 프리미엄 마스크팩. 피부에 수분과 탄력을 선사합니다.
 言語: ko

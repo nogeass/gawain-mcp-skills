@@ -74,7 +74,7 @@ Claude: 使用 language="en" 生成。LLM会将脚本翻译成英文。
 
 ```
 商品名: 京都宇治抹茶 最高級品
-图片: https://cdn.gawain.nogeass.com/public/samples/matcha.png
+图片: https://cdn.gawain.nogeass.com/wine/1_gawain_generated.png
 价格: 3200
 描述: 京都府宇治产石磨抹茶。可用于茶道的最高级品。丰富的鲜味与鲜艳的绿色。
 语言: zh
@@ -84,7 +84,7 @@ Claude: 使用 language="en" 生成。LLM会将脚本翻译成英文。
 
 ```
 商品名: ZenBreeze Pro Air Purifier
-图片: https://cdn.gawain.nogeass.com/public/samples/purifier.png
+图片: https://cdn.gawain.nogeass.com/shoes/1_gawain_generated.png
 价格: 299
 描述: Ultra-quiet HEPA air purifier with smart sensor. Covers up to 500 sq ft. Perfect for allergies and pet owners.
 语言: en
@@ -94,7 +94,7 @@ Claude: 使用 language="en" 生成。LLM会将脚本翻译成英文。
 
 ```
 商品名: 夕張メロン 特秀品
-图片: https://cdn.gawain.nogeass.com/public/samples/melon.png
+图片: https://cdn.gawain.nogeass.com/melon/1_gawain_generated.png
 价格: 8980
 描述: 北海道夕张产最高级甜瓜。糖度15度以上，入口即化。送礼佳品。
 语言: ja
@@ -104,7 +104,7 @@ Claude: 使用 language="en" 生成。LLM会将脚本翻译成英文。
 
 ```
 商品名: 유바리 멜론 콜라겐 마스크팩
-图片: https://cdn.gawain.nogeass.com/public/samples/mask.png
+图片: https://cdn.gawain.nogeass.com/bag/1_gawain_generated.png
 价格: 25000
 描述: 유바리 멜론 추출물과 콜라겐이 풍부한 프리미엄 마스크팩. 피부에 수분과 탄력을 선사합니다.
 语言: ko

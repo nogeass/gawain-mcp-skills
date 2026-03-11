@@ -74,7 +74,7 @@ Claude: Generating with language="zh". LLM will translate the script to Chinese.
 
 ```
 Title: ZenBreeze Pro Air Purifier
-Image: https://cdn.gawain.nogeass.com/public/samples/purifier.png
+Image: https://cdn.gawain.nogeass.com/shoes/1_gawain_generated.png
 Price: 299
 Description: Ultra-quiet HEPA air purifier with smart sensor. Covers up to 500 sq ft. Perfect for allergies and pet owners.
 Language: en
@@ -84,7 +84,7 @@ Language: en
 
 ```
 Title: 夕張メロン 特秀品
-Image: https://cdn.gawain.nogeass.com/public/samples/melon.png
+Image: https://cdn.gawain.nogeass.com/melon/1_gawain_generated.png
 Price: 8980
 Description: 北海道夕張産の最高級メロン。糖度15度以上、とろける果肉。贈答用にも最適。
 Language: ja
@@ -94,7 +94,7 @@ Language: ja
 
 ```
 Title: 京都宇治抹茶 最高級品
-Image: https://cdn.gawain.nogeass.com/public/samples/matcha.png
+Image: https://cdn.gawain.nogeass.com/wine/1_gawain_generated.png
 Price: 3200
 Description: 京都府宇治産の石臼挽き抹茶。茶道にも使える最高級品。豊かな旨味と鮮やかな緑色。
 Language: zh
@@ -104,7 +104,7 @@ Language: zh
 
 ```
 Title: 유바리 멜론 콜라겐 마스크팩
-Image: https://cdn.gawain.nogeass.com/public/samples/mask.png
+Image: https://cdn.gawain.nogeass.com/bag/1_gawain_generated.png
 Price: 25000
 Description: 유바리 멜론 추출물과 콜라겐이 풍부한 프리미엄 마스크팩. 피부에 수분과 탄력을 선사합니다.
 Language: ko
