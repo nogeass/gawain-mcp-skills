@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gawain": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@gawain-ai/mcp-server"],
+      "env": {
+        "GAWAIN_API_KEY": ""
+      }
+    }
+  }
+}

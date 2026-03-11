@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment (DO NOT use .env files — use gh secrets instead)
+.env
+.env.*
+.env.local
+.env.production
+
+# Internal design docs (not for public distribution)
+docs/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# Temporary
+tmp/
+.tmp/

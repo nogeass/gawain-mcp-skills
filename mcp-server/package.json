@@ -1,0 +1,49 @@
+{
+  "name": "@gawain-ai/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for Gawain AI video generation — generate product videos from Claude Code with auto language detection (ja/en/zh/ko)",
+  "license": "MIT",
+  "author": "no geass inc. <dev@nogeass.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nogeass/gawain-mcp-skills"
+  },
+  "homepage": "https://gawain.nogeass.com",
+  "keywords": [
+    "mcp",
+    "ai-video",
+    "gawain",
+    "claude-code",
+    "video-generation",
+    "ecommerce",
+    "multilingual",
+    "model-context-protocol"
+  ],
+  "type": "module",
+  "main": "./dist/server.js",
+  "bin": {
+    "gawain-mcp": "./dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/server.js",
+    "prepublishOnly": "npm run build",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
