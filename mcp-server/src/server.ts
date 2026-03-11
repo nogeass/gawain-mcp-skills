@@ -47,7 +47,7 @@ import type { GenerateVideoInput, CheckJobStatusInput } from "./types.js";
 
 const server = new McpServer({
   name: "gawain",
-  version: "0.1.0",
+  version: "0.2.0",
 });
 
 // --- Tool: generate_video ---
@@ -114,6 +114,83 @@ server.tool(
       };
     }
   }
+);
+
+// --- Prompt: generate-video ---
+server.prompt(
+  "generate-video",
+  "Interactively generate an AI product video with Gawain. Provide a product name and image URL to create a promotional video with auto language detection (ja/en/zh/ko).",
+  {
+    title: z.string().optional().describe("Product name"),
+    image_url: z.string().optional().describe("Product image URL"),
+  },
+  (params) => ({
+    messages: [
+      {
+        role: "user" as const,
+        content: {
+          type: "text" as const,
+          text: [
+            "# AI Video Generation",
+            "",
+            "Generate a product promotional video using Gawain AI.",
+            "",
+            params.title ? `Product: ${params.title}` : "",
+            params.image_url ? `Image: ${params.image_url}` : "",
+            "",
+            "## Step 1: Gather product information",
+            "- Confirm the product name and image URL (ask if missing)",
+            "- Optionally ask for: price, description, preferred language",
+            "- Language defaults to `auto` (detected from product text)",
+            "",
+            "## Step 2: Generate the video",
+            "- Call the `generate_video` MCP tool with the gathered information",
+            "- Display the detected/selected language to the user",
+            "- Show the Job ID and inform that it takes ~10 minutes",
+            "",
+            "## Step 3: Monitor until completion",
+            "- Poll `check_job_status` every 30 seconds",
+            "- Show progress updates to the user",
+            "- On `completed`: display the video URL",
+            "- On `failed`: show the error and suggest retrying",
+            "- Limit polling to 20 minutes max",
+          ]
+            .filter((l) => l !== "")
+            .join("\n"),
+        },
+      },
+    ],
+  })
+);
+
+// --- Prompt: monitor-jobs ---
+server.prompt(
+  "monitor-jobs",
+  "Monitor the progress of a Gawain AI video generation job.",
+  {
+    job_id: z.string().optional().describe("Job ID to monitor"),
+  },
+  (params) => ({
+    messages: [
+      {
+        role: "user" as const,
+        content: {
+          type: "text" as const,
+          text: [
+            "# Job Monitor",
+            "",
+            params.job_id ? `Job ID: ${params.job_id}` : "Ask the user for the Job ID.",
+            "",
+            "1. Call the `check_job_status` MCP tool",
+            "2. Display results based on status:",
+            "   - pending/processing: show progress %, suggest checking again in 30s",
+            "   - completed: display the video URL",
+            "   - failed: show error, suggest retrying with generate_video",
+          ].join("\n"),
+        },
+      },
+    ],
+  })
 );
 
 // --- Start ---
