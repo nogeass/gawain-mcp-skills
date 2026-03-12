@@ -17,6 +17,11 @@
   <a href="./README.zh.md">中文</a>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nogeass/.github/main/assets/gif/demo1_ko.gif" alt="Gawain AI 데모 1" width="320" />
+  <img src="https://raw.githubusercontent.com/nogeass/.github/main/assets/gif/demo2_ko.gif" alt="Gawain AI 데모 2" width="320" />
+</p>
+
 ---
 
 ## 개요

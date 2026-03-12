@@ -19,12 +19,10 @@
 
 ---
 
-<!-- TODO: Replace with actual demo GIF once recorded -->
-<!-- <p align="center">
-  <img src="https://cdn.gawain.nogeass.com/public/demo/mcp-demo.gif" alt="Gawain MCP Demo" width="720">
-  <br>
-  <a href="https://youtube.com/watch?v=XXXXX">Watch full demo on YouTube</a>
-</p> -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nogeass/.github/main/assets/gif/demo1_en.gif" alt="Gawain AI Demo 1" width="320" />
+  <img src="https://raw.githubusercontent.com/nogeass/.github/main/assets/gif/demo2_en.gif" alt="Gawain AI Demo 2" width="320" />
+</p>
 
 ---
 

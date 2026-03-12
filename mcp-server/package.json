@@ -1,6 +1,6 @@
 {
   "name": "@gawain-ai/mcp-server",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "MCP server for Gawain AI video generation — generate product videos from Claude Code with auto language detection (ja/en/zh/ko)",
   "license": "MIT",
   "author": "no geass inc. <dev@nogeass.com>",
